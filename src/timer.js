@@ -1,6 +1,6 @@
 // timer.js
 export class Timer {
-  constructor(workDuration = 0.1, breakDuration = 0.1) {
+  constructor(workDuration = 25, breakDuration = 5) {
     this.workDuration = workDuration * 60;
     this.breakDuration = breakDuration * 60;
     this.currentTime = this.workDuration;
